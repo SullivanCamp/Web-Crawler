@@ -25,7 +25,7 @@ The crawler uses multiple worker threads to process a shared queue of input URLs
 - HTTP response code tracking (`2xx`, `3xx`, `4xx`, `5xx`, other)
 - HTML link extraction using `HTMLParserBase`
 - Periodic performance and throughput statistics
-- Detection of `tamu.edu` links found on crawled `2xx` pages
+- Detection of `tamu.edu` links found on crawled `2xx` pages(Does not quite work yet)
 
 ## Tech Stack
 
